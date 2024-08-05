@@ -22,18 +22,18 @@ This Python script automatically sends a personalized birthday email to your fri
 ## Installation
 
 1. Clone this repository:
-    ```bash
+    ```
     git clone https://github.com/agam1122/birthday-wisher.git
     cd birthday-wisher
     ```
     
 2. Install the required Python libraries:
-    ```bash
+    ```
     pip install pandas
     ```
 
 3. Prepare your `birthdays.csv` file in the following format:
-    ```csv
+    ```c
     name,email,year,month,day
     name1,example1@example.com,2004,7,28
     name1,example2@example.com,2005,7,29
@@ -42,7 +42,7 @@ This Python script automatically sends a personalized birthday email to your fri
 4. Create a folder named `letter_templates` and add your letter templates as `letter_1.txt`, `letter_2.txt`, and `letter_3.txt`. Each template should contain `[NAME]` as a placeholder for the recipient's name.
 
 5. Add your Gmail credentials to the script:
-    ```python
+    ```
     MY_EMAIL = "your-email@gmail.com"
     MY_PASSWORD = "your-password"
     ```
